@@ -35,7 +35,7 @@ body {
   margin-bottom: 50px;
 }
 
-.signup_item_1 h3 {
+.signup_item_1 h2 {
   font-size: 1.3rem;
   margin-bottom: 10px;
   padding: 0 20px;
@@ -73,6 +73,10 @@ body {
   padding: 20px 0;
 }
 
+.signup_item_2 .signup_form_item2 form #error {
+  display: none;
+}
+
 .signup_item_2 .signup_form_item2 form input {
   padding: 13px;
   width: 90%;
@@ -91,6 +95,11 @@ body {
   font-weight: 400;
   -webkit-box-shadow: 1px 5px rgba(8, 65, 40, 0.9);
           box-shadow: 1px 5px rgba(8, 65, 40, 0.9);
+}
+
+.signup_item_2 .signup_form_item2 form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #3ee09a;
 }
 
 .signup_item_2 .small {
@@ -128,14 +137,16 @@ body {
   .signup_item_1 {
     text-align: left;
   }
-  .signup_item_1 h3 {
-    font-size: 2rem;
+  .signup_item_1 h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
     width: 70%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 0;
   }
   .signup_item_1 p {
     padding: 0;
+    width: 85%;
   }
   .signup_item_2 {
     display: -ms-grid;
